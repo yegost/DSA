@@ -14,3 +14,14 @@ function singleNumber(nums: number[]): number {
     }
     return -1;
 };
+
+/* XOR version */
+
+function singleNumber1(nums: number[]): number {
+    let result = 0;
+
+    for (const num of nums) {
+        result ^= num;
+    }
+    return result;
+};

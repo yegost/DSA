@@ -1,3 +1,4 @@
+```
 Keyboard Row
 
 Easy
@@ -9,9 +10,7 @@ Note that the strings are case-insensitive, both lowercased and uppercased of th
 In the American keyboard:
 
 the first row consists of the characters "qwertyuiop",
-
 the second row consists of the characters "asdfghjkl", and
-
 the third row consists of the characters "zxcvbnm".
 
  
@@ -43,7 +42,6 @@ Output: ["adsdf","sfd"]
 Constraints:
 
 1 <= words.length <= 20
-
 1 <= words[i].length <= 100
-
 words[i] consists of English letters (both lowercase and uppercase). 
+```

@@ -1,3 +1,4 @@
+```
 Reshape the Matrix
 
 Easy
@@ -16,25 +17,19 @@ Example 1:
 
 
 Input: mat = [[1,2],[3,4]], r = 1, c = 4
-
 Output: [[1,2,3,4]]
-
 Example 2:
 
 
 Input: mat = [[1,2],[3,4]], r = 2, c = 4
-
 Output: [[1,2],[3,4]]
  
 
 Constraints:
 
 m == mat.length
-
 n == mat[i].length
-
 1 <= m, n <= 100
-
 -1000 <= mat[i][j] <= 1000
-
 1 <= r, c <= 300
+```

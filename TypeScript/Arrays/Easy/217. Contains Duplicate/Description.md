@@ -1,3 +1,4 @@
+```
 Contains Duplicate
 
 Easy
@@ -37,5 +38,5 @@ Output: true
 Constraints:
 
 1 <= nums.length <= 105
-
 -109 <= nums[i] <= 109
+```

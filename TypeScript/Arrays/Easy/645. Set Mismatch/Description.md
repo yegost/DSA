@@ -1,3 +1,4 @@
+```
 Set Mismatch
 
 Easy
@@ -13,13 +14,10 @@ Find the number that occurs twice and the number that is missing and return them
 Example 1:
 
 Input: nums = [1,2,2,4]
-
 Output: [2,3]
-
 Example 2:
 
 Input: nums = [1,1]
-
 Output: [1,2]
  
 
@@ -27,3 +25,4 @@ Constraints:
 
 2 <= nums.length <= 104
 1 <= nums[i] <= 104
+```

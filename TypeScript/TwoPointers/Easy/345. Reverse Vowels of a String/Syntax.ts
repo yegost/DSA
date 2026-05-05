@@ -21,3 +21,29 @@ function reverseVowels(s: string): string {
 
     return arr.join('')
 };
+
+/* Normal reverse */
+
+function reverseVowels1(s: string): string {
+    const vowels = "aeiouAEIOU"
+    let arr = s.split('')
+
+    const vowelList: string[] = []
+    for (const char of arr) {
+        if (vowels.includes(char)) {
+            vowelList.push(char)
+        }
+    }
+
+    vowelList.reverse();
+
+    let j = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (vowels.includes(arr[i])) {
+            arr[i] = vowelList[j]
+            j++;
+        }
+    }
+
+    return arr.join('')
+};

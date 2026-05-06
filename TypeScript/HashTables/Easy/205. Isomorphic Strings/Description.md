@@ -1,3 +1,4 @@
+```
 Isomorphic Strings
 
 Easy
@@ -21,9 +22,7 @@ Explanation:
 The strings s and t can be made identical by:
 
 Mapping 'e' to 'a'.
-
 Mapping 'g' to 'd'.
-
 Example 2:
 
 Input: s = "f11", t = "b23"
@@ -45,7 +44,6 @@ Output: true
 Constraints:
 
 1 <= s.length <= 5 * 104
-
 t.length == s.length
-
 s and t consist of any valid ascii character.
+```

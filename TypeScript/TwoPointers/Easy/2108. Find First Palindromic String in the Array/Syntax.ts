@@ -1,3 +1,22 @@
+/* Brute force */
+
+function firstPalindrome0(words: string[]): string {
+    const isPalindrome = (str) => {
+        let reversed = str.split('').reverse().join('')
+
+        if (str === reversed) return true
+        return false;
+    }
+    
+    for (const word of words) {
+        if (isPalindrome(word)) return word
+    }
+
+    return ""
+};
+
+/* Two Pointers */
+
 function firstPalindrome(words: string[]): string {
     for (const word of words) {
         let left = 0

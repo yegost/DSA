@@ -1,7 +1,7 @@
 /* Brute force */
 
 function firstPalindrome0(words: string[]): string {
-    const isPalindrome = (str) => {
+    const isPalindrome = (str: string) => {
         let reversed = str.split('').reverse().join('')
 
         if (str === reversed) return true

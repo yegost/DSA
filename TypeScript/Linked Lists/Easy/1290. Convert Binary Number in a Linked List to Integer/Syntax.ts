@@ -23,3 +23,17 @@ function getDecimalValue(head: ListNode | null): number {
 
     return parseInt(array.join(''), 2)
 };
+
+/* Space O(1) */
+
+function getDecimalValue1(head: ListNode | null): number {
+    let result = 0;
+    let current = head;
+
+    while (current) {
+        result = result * 2 + current.val
+        current = current.next
+    }
+
+    return result;
+};

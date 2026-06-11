@@ -1,6 +1,5 @@
 /**
  * Definition for singly-linked list.
-*/
 class ListNode {
     val: number
     next: ListNode | null
@@ -9,6 +8,7 @@ class ListNode {
         this.next = (next===undefined ? null : next)
     }
 }
+*/
 
 /**
  Do not return anything, modify head in-place instead.

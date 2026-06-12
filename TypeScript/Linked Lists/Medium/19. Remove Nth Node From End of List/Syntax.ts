@@ -33,3 +33,25 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
 
     return dummy.next;
 };
+
+/* One Pass */
+
+function removeNthFromEnd1(head: ListNode | null, n: number): ListNode | null {
+    const dummy = new ListNode(0, head)
+
+    let first: ListNode | null = dummy;
+    let second: ListNode | null = dummy;
+
+    for (let i = 0; i <= n; i++) {
+        second = second!.next
+    }
+
+    while (second) {
+        first = first!.next
+        second = second.next
+    }
+
+    first!.next = first!.next!.next
+
+    return dummy.next
+};

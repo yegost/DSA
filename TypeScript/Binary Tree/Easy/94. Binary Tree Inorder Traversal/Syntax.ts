@@ -27,3 +27,24 @@ function inorderTraversal(root: TreeNode | null): number[] {
     dfs(root)
     return result;
 };
+
+/* Iterative */
+
+function inorderTraversal1(root: TreeNode | null): number[] {
+    let result: number[] = []
+    let stack: TreeNode[] = []
+    let current: TreeNode | null = root
+
+    while (current || stack.length) {
+        while (current) {
+            stack.push(current)
+            current = current.left
+        }
+
+        current = stack.pop()!
+        result.push(current.val)
+        current = current.right
+    }
+
+    return result
+};
